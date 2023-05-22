@@ -11,6 +11,13 @@
 		96F0A3B32A17F1F800AED8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0A3B22A17F1F800AED8C0 /* ContentView.swift */; };
 		96F0A3B52A17F1F900AED8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F0A3B42A17F1F900AED8C0 /* Assets.xcassets */; };
 		96F0A3B82A17F1F900AED8C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F0A3B72A17F1F900AED8C0 /* Preview Assets.xcassets */; };
+		96F0A3BF2A180FA100AED8C0 /* HologramShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0A3BE2A180FA100AED8C0 /* HologramShape.swift */; };
+		96F0A3C12A180FEB00AED8C0 /* CircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0A3C02A180FEB00AED8C0 /* CircleShape.swift */; };
+		96F0A3C32A181CCA00AED8C0 /* CircleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0A3C22A181CCA00AED8C0 /* CircleInfo.swift */; };
+		96F8B31B2A1BA51F00D5CF5D /* HologramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8B31A2A1BA51F00D5CF5D /* HologramView.swift */; };
+		96F8B31D2A1BAA4000D5CF5D /* SunflowerPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8B31C2A1BAA4000D5CF5D /* SunflowerPattern.swift */; };
+		96F8B31F2A1BAAC600D5CF5D /* SunflowerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8B31E2A1BAAC600D5CF5D /* SunflowerShape.swift */; };
+		96F8B3212A1BAB2100D5CF5D /* SunflowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8B3202A1BAB2100D5CF5D /* SunflowerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		96F0A3B22A17F1F800AED8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96F0A3B42A17F1F900AED8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96F0A3B72A17F1F900AED8C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96F0A3BE2A180FA100AED8C0 /* HologramShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HologramShape.swift; sourceTree = "<group>"; };
+		96F0A3C02A180FEB00AED8C0 /* CircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShape.swift; sourceTree = "<group>"; };
+		96F0A3C22A181CCA00AED8C0 /* CircleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleInfo.swift; sourceTree = "<group>"; };
+		96F8B31A2A1BA51F00D5CF5D /* HologramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HologramView.swift; sourceTree = "<group>"; };
+		96F8B31C2A1BAA4000D5CF5D /* SunflowerPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflowerPattern.swift; sourceTree = "<group>"; };
+		96F8B31E2A1BAAC600D5CF5D /* SunflowerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflowerShape.swift; sourceTree = "<group>"; };
+		96F8B3202A1BAB2100D5CF5D /* SunflowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflowerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				96F0A3B02A17F1F800AED8C0 /* Adigi_HologramApp.swift */,
 				96F0A3B22A17F1F800AED8C0 /* ContentView.swift */,
+				96F8B31A2A1BA51F00D5CF5D /* HologramView.swift */,
+				96F0A3BE2A180FA100AED8C0 /* HologramShape.swift */,
+				96F8B31C2A1BAA4000D5CF5D /* SunflowerPattern.swift */,
+				96F8B31E2A1BAAC600D5CF5D /* SunflowerShape.swift */,
+				96F8B3202A1BAB2100D5CF5D /* SunflowerView.swift */,
+				96F0A3C22A181CCA00AED8C0 /* CircleInfo.swift */,
+				96F0A3C02A180FEB00AED8C0 /* CircleShape.swift */,
 				96F0A3B42A17F1F900AED8C0 /* Assets.xcassets */,
 				96F0A3B62A17F1F900AED8C0 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F0A3BF2A180FA100AED8C0 /* HologramShape.swift in Sources */,
+				96F8B31B2A1BA51F00D5CF5D /* HologramView.swift in Sources */,
+				96F8B31D2A1BAA4000D5CF5D /* SunflowerPattern.swift in Sources */,
 				96F0A3B32A17F1F800AED8C0 /* ContentView.swift in Sources */,
 				96F0A3B12A17F1F800AED8C0 /* Adigi_HologramApp.swift in Sources */,
+				96F8B31F2A1BAAC600D5CF5D /* SunflowerShape.swift in Sources */,
+				96F0A3C32A181CCA00AED8C0 /* CircleInfo.swift in Sources */,
+				96F8B3212A1BAB2100D5CF5D /* SunflowerView.swift in Sources */,
+				96F0A3C12A180FEB00AED8C0 /* CircleShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
